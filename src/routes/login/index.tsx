@@ -1,12 +1,12 @@
 import { component$ } from "@builder.io/qwik";
-import Register from "~/components/register/register";
+import Login from "~/components/login/login";
 
 export default component$(() => {
     return (
       <div>
         <h2>
-          Register Page
-          <Register></Register>
+          Login Page
+          <Login></Login>
         </h2>
       </div>
     );
